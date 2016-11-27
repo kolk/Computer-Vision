@@ -1,0 +1,9 @@
+2 Steps are required for compiling and running the code
+
+1)To compile the code, run the following command in the command line:
+g++ -ggdb `pkg-config --cflags opencv` -o `basename chromaKey3.cpp .cpp` chromaKey3.cpp `pkg-config --libs opencv` -std=c++11
+
+or make chromaKey3
+
+2) To run the code, copy the videos in the cuurent directory
+./chromaKey3

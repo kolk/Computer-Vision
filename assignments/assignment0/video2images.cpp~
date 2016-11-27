@@ -1,0 +1,52 @@
+#include<opencv2/core/core.hpp>
+#include<opencv2/highgui/highgui.hpp>
+//#include<opencv2/imgcodecs.hpp>
+#include<iostream>
+#include<string>
+
+using namespace cv;
+using namespace std;
+
+int main(int argc, char** argv)
+{
+   String videoPath("Spirit_ Stallion of the Cimarron.mp4");
+   if (argc == 2)
+       videoPath = argv[1];
+   
+   VideoCapture cap(videoPath);
+   if (!cap.isOpened())
+       cerr << "Error: could not load video\n";
+ 
+//   high_resolution_clock::time_point start_time = std::chrono::high_resolution_clock::now();
+
+   Mat frame;
+   cap >> frame;
+   if(frame.empty())
+   {
+     cerr << "Video Frame empty" << endl;
+   }
+   //auto end_time = std::chrono::high_resolution_Clock::now();
+   //auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time).count();
+   //int wait_time = std::max(1, elapsed_time);
+   double fps = cap.get(CV_CAP_PROP_FPS);
+   cout << cap.get(CV_CAP_PROP_FRAME_WIDTH) << " " << cap.get(CV_CAP_PROP_FRAME_HEIGHT) << endl;
+   //int fDuration = 1000/fps;
+   //CvSize sz = cvSize((int)cap.get(CV_CAP_PROP_FRAME_WIDTH),(int)cap.get(CV_CAP_PROP_FRAME_HEIGHT));
+//   VideoWriter v("videoFrames
+   
+   int key = 0;
+   int num = 1;
+   
+  // cout << 1/fps;
+   while(true)
+   {   
+     cap >> frame;
+     if(!frame.data)
+        break;
+
+     string filename = "videoFrames/frame" +  to_string(num++) + ".jpg";
+     imwrite(filename, frame);
+    
+   }
+   return 0;
+}
