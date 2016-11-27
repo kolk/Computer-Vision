@@ -1,0 +1,81 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{DLT}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Code}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Input}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Output}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Camera Projection Matrix}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.5}{Intrinsic Parameters}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.6}{Extrinsic Parameters}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.7}{WireFrame of Estimated Points}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{RANSAC}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Code}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Input}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Output}{section.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Camera Projection Matrix}{subsection.3.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Intrinsic Parameters}{subsection.3.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Extrinsic Parameters}{subsection.3.3}% 16
+\BOOKMARK [2][-]{subsection.3.4}{Output Image}{section.3}% 17
+\BOOKMARK [1][-]{section.4}{Radial Distortion}{}% 18
+\BOOKMARK [2][-]{subsection.4.1}{Code for Distortion Parameter Estimation}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Output}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.3}{Code for Radial Distortion Correction}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.4}{Input Image}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.5}{Output Image}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.6}{DLT after radial Distortion}{section.4}% 24
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Camera Projection Matrix}{subsection.4.6}% 25
+\BOOKMARK [2][-]{subsection.4.7}{Intrinsic Parameter}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.8}{Extrinsic Parameter}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.9}{Radial Corrected Input Points}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.10}{Estimated Points}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.11}{Ransac after radial Distortion}{section.4}% 30
+\BOOKMARK [3][-]{subsubsection.4.11.1}{Camera Projection Matrix}{subsection.4.11}% 31
+\BOOKMARK [2][-]{subsection.4.12}{Intrinsic Parameter}{section.4}% 32
+\BOOKMARK [2][-]{subsection.4.13}{Extrinsic Parameter}{section.4}% 33
+\BOOKMARK [1][-]{section.5}{Camera Calibration using Zhang's Method}{}% 34
+\BOOKMARK [2][-]{subsection.5.1}{Input}{section.5}% 35
+\BOOKMARK [2][-]{subsection.5.2}{Output}{section.5}% 36
+\BOOKMARK [2][-]{subsection.5.3}{Per View Re-projection Errors}{section.5}% 37
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Distortion Coefficients}{subsection.5.3}% 38
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Intrinsic Parameters}{subsection.5.3}% 39
+\BOOKMARK [2][-]{subsection.5.4}{Extrinsic Parameters}{section.5}% 40
+\BOOKMARK [2][-]{subsection.5.5}{WireFrame Depiction on Estimated Image Points}{section.5}% 41
+\BOOKMARK [1][-]{section.6}{Personal Camera Calibration}{}% 42
+\BOOKMARK [2][-]{subsection.6.1}{DLT}{section.6}% 43
+\BOOKMARK [2][-]{subsection.6.2}{Code}{section.6}% 44
+\BOOKMARK [2][-]{subsection.6.3}{Input}{section.6}% 45
+\BOOKMARK [2][-]{subsection.6.4}{Output}{section.6}% 46
+\BOOKMARK [2][-]{subsection.6.5}{Projection Matrix P}{section.6}% 47
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Intrinsic Parameter K}{subsection.6.5}% 48
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Extrinsic Parameter R}{subsection.6.5}% 49
+\BOOKMARK [3][-]{subsubsection.6.5.3}{Extrinsic Parameter C}{subsection.6.5}% 50
+\BOOKMARK [2][-]{subsection.6.6}{RANSAC}{section.6}% 51
+\BOOKMARK [2][-]{subsection.6.7}{Code}{section.6}% 52
+\BOOKMARK [2][-]{subsection.6.8}{Input}{section.6}% 53
+\BOOKMARK [2][-]{subsection.6.9}{Output}{section.6}% 54
+\BOOKMARK [2][-]{subsection.6.10}{Projection Matrix P}{section.6}% 55
+\BOOKMARK [3][-]{subsubsection.6.10.1}{Intrinsic Parameter K}{subsection.6.10}% 56
+\BOOKMARK [3][-]{subsubsection.6.10.2}{Extrinsic Parameter R}{subsection.6.10}% 57
+\BOOKMARK [3][-]{subsubsection.6.10.3}{Extrinsic Parameter C}{subsection.6.10}% 58
+\BOOKMARK [2][-]{subsection.6.11}{Zhang Method}{section.6}% 59
+\BOOKMARK [2][-]{subsection.6.12}{Input}{section.6}% 60
+\BOOKMARK [2][-]{subsection.6.13}{Output}{section.6}% 61
+\BOOKMARK [2][-]{subsection.6.14}{Average Re-Projection Error}{section.6}% 62
+\BOOKMARK [2][-]{subsection.6.15}{Per view Re-projection Error}{section.6}% 63
+\BOOKMARK [3][-]{subsubsection.6.15.1}{Intrinsic Parameter K}{subsection.6.15}% 64
+\BOOKMARK [3][-]{subsubsection.6.15.2}{Extrinsic Parameters}{subsection.6.15}% 65
+\BOOKMARK [3][-]{subsubsection.6.15.3}{Rotation Matrix 1}{subsection.6.15}% 66
+\BOOKMARK [3][-]{subsubsection.6.15.4}{Rotation Matrix 2}{subsection.6.15}% 67
+\BOOKMARK [3][-]{subsubsection.6.15.5}{Rotation Matrix 3}{subsection.6.15}% 68
+\BOOKMARK [3][-]{subsubsection.6.15.6}{Rotation Matrix 4}{subsection.6.15}% 69
+\BOOKMARK [3][-]{subsubsection.6.15.7}{Rotation Matrix 5}{subsection.6.15}% 70
+\BOOKMARK [3][-]{subsubsection.6.15.8}{Rotation Matrix 6}{subsection.6.15}% 71
+\BOOKMARK [3][-]{subsubsection.6.15.9}{Rotation Matrix 7}{subsection.6.15}% 72
+\BOOKMARK [3][-]{subsubsection.6.15.10}{Rotation Matrix 8}{subsection.6.15}% 73
+\BOOKMARK [3][-]{subsubsection.6.15.11}{Rotation Matrix 9}{subsection.6.15}% 74
+\BOOKMARK [3][-]{subsubsection.6.15.12}{Rotation Matrix 10}{subsection.6.15}% 75
+\BOOKMARK [3][-]{subsubsection.6.15.13}{Rotation Matrix 11}{subsection.6.15}% 76
+\BOOKMARK [3][-]{subsubsection.6.15.14}{Rotation Matrix 12}{subsection.6.15}% 77
+\BOOKMARK [3][-]{subsubsection.6.15.15}{Rotation Matrix 13}{subsection.6.15}% 78
+\BOOKMARK [3][-]{subsubsection.6.15.16}{Rotation Matrix 14}{subsection.6.15}% 79
+\BOOKMARK [3][-]{subsubsection.6.15.17}{Rotation Matrix 15}{subsection.6.15}% 80
+\BOOKMARK [2][-]{subsection.6.16}{Output Image}{section.6}% 81
