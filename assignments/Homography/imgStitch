@@ -1,0 +1,3 @@
+
+Ia = imread('st1.jpg');
+[p, K, R, C, imgEstimated] = ransac(img2Pts, img1Pts, Ia, Ib);

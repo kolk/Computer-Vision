@@ -1,0 +1,62 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{DLT with Manual Features}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Code}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Input}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Output}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Camera Projection Matrix, P}{subsection.2.3}% 6
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Intrinsic Parameters, K}{subsection.2.3}% 7
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Rotation Matrix, R}{subsection.2.3}% 8
+\BOOKMARK [3][-]{subsubsection.2.3.4}{Camera Center, C}{subsection.2.3}% 9
+\BOOKMARK [3][-]{subsubsection.2.3.5}{Observations}{subsection.2.3}% 10
+\BOOKMARK [3][-]{subsubsection.2.3.6}{Output Image}{subsection.2.3}% 11
+\BOOKMARK [1][-]{section.3}{DLT with SIFT features}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{Code}{section.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.1.1}{DLT code}{subsection.3.1}% 14
+\BOOKMARK [3][-]{subsubsection.3.1.2}{SIFT Code}{subsection.3.1}% 15
+\BOOKMARK [2][-]{subsection.3.2}{Input}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.3}{Output}{section.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Camera Projection Matrix, P}{subsection.3.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Intrinsic Parameters, K}{subsection.3.3}% 19
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Rotation Matrix}{subsection.3.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.3.4}{Center of Camera}{subsection.3.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.3.5}{Observations}{subsection.3.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.3.6}{Output Image}{subsection.3.3}% 23
+\BOOKMARK [1][-]{section.4}{RANSAC with manual features}{}% 24
+\BOOKMARK [2][-]{subsection.4.1}{Code}{section.4}% 25
+\BOOKMARK [3][-]{subsubsection.4.1.1}{RANSAC code}{subsection.4.1}% 26
+\BOOKMARK [2][-]{subsection.4.2}{Input}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.3}{Output}{section.4}% 28
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Camera Projection Matrix, P}{subsection.4.3}% 29
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Intrinsic Parameters, K}{subsection.4.3}% 30
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Rotation Matrix}{subsection.4.3}% 31
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Center of Camera}{subsection.4.3}% 32
+\BOOKMARK [3][-]{subsubsection.4.3.5}{Output Image}{subsection.4.3}% 33
+\BOOKMARK [1][-]{section.5}{RANSAC with SIFT features}{}% 34
+\BOOKMARK [2][-]{subsection.5.1}{Code}{section.5}% 35
+\BOOKMARK [3][-]{subsubsection.5.1.1}{mainCode}{subsection.5.1}% 36
+\BOOKMARK [3][-]{subsubsection.5.1.2}{RANSAC code}{subsection.5.1}% 37
+\BOOKMARK [3][-]{subsubsection.5.1.3}{SIFT code}{subsection.5.1}% 38
+\BOOKMARK [2][-]{subsection.5.2}{Input}{section.5}% 39
+\BOOKMARK [2][-]{subsection.5.3}{Output}{section.5}% 40
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Camera Projection Matrix, P}{subsection.5.3}% 41
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Intrinsic Parameters, K}{subsection.5.3}% 42
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Rotation Matrix}{subsection.5.3}% 43
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Center of Camera}{subsection.5.3}% 44
+\BOOKMARK [3][-]{subsubsection.5.3.5}{Output Image}{subsection.5.3}% 45
+\BOOKMARK [3][-]{subsubsection.5.3.6}{Observation}{subsection.5.3}% 46
+\BOOKMARK [1][-]{section.6}{Image Stitching with Camera at Same Location}{}% 47
+\BOOKMARK [2][-]{subsection.6.1}{Code}{section.6}% 48
+\BOOKMARK [2][-]{subsection.6.2}{Input}{section.6}% 49
+\BOOKMARK [2][-]{subsection.6.3}{Output}{section.6}% 50
+\BOOKMARK [1][-]{section.7}{Image Stitching of Planar Scene}{}% 51
+\BOOKMARK [2][-]{subsection.7.1}{Code}{section.7}% 52
+\BOOKMARK [2][-]{subsection.7.2}{Input}{section.7}% 53
+\BOOKMARK [2][-]{subsection.7.3}{Output}{section.7}% 54
+\BOOKMARK [1][-]{section.8}{ Perspective Distortion Correction}{}% 55
+\BOOKMARK [2][-]{subsection.8.1}{Code}{section.8}% 56
+\BOOKMARK [2][-]{subsection.8.2}{Input}{section.8}% 57
+\BOOKMARK [2][-]{subsection.8.3}{Output}{section.8}% 58
+\BOOKMARK [1][-]{section.9}{Image Overlay}{}% 59
+\BOOKMARK [2][-]{subsection.9.1}{Code}{section.9}% 60
+\BOOKMARK [2][-]{subsection.9.2}{Input}{section.9}% 61
+\BOOKMARK [2][-]{subsection.9.3}{Output}{section.9}% 62

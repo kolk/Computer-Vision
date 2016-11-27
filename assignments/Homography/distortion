@@ -1,0 +1,11 @@
+close all;
+clear all;
+
+Ia = imread('distortion.jpg');
+
+[im1Pts, im2Pts, Ia, Ib] = sift(Ia, Ib);
+
+im1Pts = [im1Pts; ones(1, size(im1Pts,2))];
+im1Pts = im1Pts';
+
+[p, K, R, C, imgEstimated] = ransac(im2Pts, im1Pts, Ib, Ia);
